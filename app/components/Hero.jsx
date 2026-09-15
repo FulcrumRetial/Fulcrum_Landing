@@ -8,7 +8,7 @@ export default function Hero({ v2 = false }) {
               <span className="dot"></span> The local business growth engine
             </div>
             <h1>
-              {v2 ? "The Visibility – Relationship – Marketing tool" : "The CRM"} built for retail businesses <em>and service providers.</em>
+              {v2 ? "The Visibility – Relationship – Marketing tool VRM" : "The CRM"} built for retail businesses <em>and service providers.</em>
             </h1>
             <p className="lead">
               Acquire customers. Retain relationships. Grow repeat business - all from one refreshingly simple platform.
