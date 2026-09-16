@@ -338,7 +338,7 @@ em {
 /* ============================================================
    Hero
    ============================================================ */
-.hero { padding: 64px 0 40px; overflow-x: clip; }
+.hero { padding: 44px 0 40px; overflow-x: clip; }
 .hero-grid {
   display: grid;
   /* 58/42 rather than an even split - the phone composition is a fixed 452px,
@@ -352,7 +352,7 @@ em {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   font: 700 12px var(--font-body);
   letter-spacing: .14em;
   text-transform: uppercase;
@@ -361,8 +361,15 @@ em {
 .tagline .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--coral); }
 /* No max-width here on purpose - the grid column is already the tighter
    constraint, and capping it narrower would force MORE wraps, not fewer. */
-.hero h1 { margin: 0 0 24px; }
-.hero .lead { margin: 0 0 36px; max-width: 30ch; font-size: clamp(1.1rem, 1.7vw, 1.25rem); }
+.hero h1 { margin: 0 0 18px; font-size: clamp(2.1rem, 3.7vw, 3.1rem); line-height: 1.07; }
+.hero h1 .tm {
+  font-size: 0.4em;
+  font-weight: 600;
+  vertical-align: super;
+  line-height: 0;
+  margin-left: 0.05em;
+}
+.hero .lead { margin: 0 0 26px; max-width: 30ch; font-size: clamp(1.05rem, 1.6vw, 1.18rem); }
 .hero-cta { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; }
 
 /* phone composition */
@@ -1523,29 +1530,3 @@ em {
 .why2-body { font: 400 14.5px/1.6 var(--font-body); color: rgba(242, 236, 224, .7); }
 @media (max-width: 1080px) { .why2-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .why2-grid { grid-template-columns: 1fr; } }
-
-/* Version toggle (V1 / V2) in the header */
-.ver-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-  padding: 3px;
-  border: 1px solid var(--divider);
-  border-radius: 999px;
-  background: transparent;
-}
-.ver-toggle a {
-  font: 700 12px/1 var(--font-body);
-  letter-spacing: .03em;
-  padding: 6px 12px;
-  border-radius: 999px;
-  color: var(--ink-muted);
-  text-decoration: none;
-  transition: background .18s ease-out, color .18s ease-out;
-}
-.ver-toggle a:hover { color: var(--forest); }
-.ver-toggle a.is-active { background: var(--forest); color: var(--cream); }
-.ver-toggle a.is-active:hover { color: var(--cream); }
-@media (max-width: 560px) {
-  .ver-toggle a { padding: 6px 10px; }
-}

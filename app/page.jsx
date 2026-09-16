@@ -18,22 +18,22 @@ export default function Home() {
         Skip to content
       </a>
 
-      <Header variant="v1" />
+      <Header />
 
       <main id="main">
-        <Hero />
-        <ProofBand />
-        <Problem />
-        <Solution />
+        <Hero v2 />
+        <ProofBand v2 />
+        <Problem v2 />
+        <Solution v2 />
         <HowItWorks />
         <Features />
-        <WhyFulcrum />
-        <ForCustomers />
-        <Faq />
+        <WhyFulcrum v2 />
+        <ForCustomers v2 />
+        <Faq v2 />
         <Waitlist />
       </main>
 
-      <Footer />
+      <Footer v2 />
     </>
   );
 }
