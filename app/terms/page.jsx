@@ -201,7 +201,7 @@ export default function TermsPage() {
               <div className="legal-note">
                 <div className="label">Support</div>
                 <p>
-                  <a href="mailto:support@fulcrumretail.in">support@fulcrumretail.in</a>
+                  <a href="mailto:admin@fulcrumretail.in">admin@fulcrumretail.in</a>
                 </p>
               </div>
             </div>

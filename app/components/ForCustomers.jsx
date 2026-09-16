@@ -11,7 +11,7 @@ export default function ForCustomers({ v2 = false }) {
             Shopping local <em>just got rewarding.</em>
           </h2>
           <p className="lead" style={{ marginBottom: "72px", maxWidth: "48ch" }}>
-            Your Customer downloads Fulcrum Customer App,  registers once, transacts at Fulcrum Network partner stores and begins earning wallet cash right from the word Go!          </p>
+            Your Customer downloads Fulcrum Neighborhood App,  registers once, transacts at Fulcrum Network partner stores and begins earning wallet cash right from the word Go!          </p>
         </div>
 
         <div className="cust-steps">
