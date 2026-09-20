@@ -143,7 +143,7 @@ export default function PrivacyPage() {
                 <span className="step" aria-hidden="true">6.</span> Data retention
               </h2>
               <p>
-                We retain your data for 10&nbsp;years from your last transaction or interaction, or until
+                We retain your data for 90&nbsp;days from your last transaction or interaction, or until
                 you request deletion of your account, whichever is earlier. Anonymized analytics data may
                 be retained for longer for business insights.
               </p>
